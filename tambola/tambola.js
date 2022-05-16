@@ -15,6 +15,8 @@ resetFullBoard = () => {
   allNumbers = document.querySelectorAll(".number");
   allNumbers.forEach((element) => {
     element.style.backgroundColor = "#ffebcd";
+    element.style.color = 'black'
+    element.style.fontWeight = "normal";
   });
 
   // Rest te array to include all numbers
