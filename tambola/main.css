@@ -96,21 +96,21 @@ h1 {
   padding: 10px;
   box-sizing: border-box;
   background-color: #ffebcd;
-  color: rebeccapurple;
+  color: #b45b5b;
   cursor: pointer;
   box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.32);
   border-radius: 5px;
   width: 100%;
 }
 
-@media screen and (max-width:680px) {
-    .number-board {
-        width: 90%;
-    }
-    .actions {
-        width: 90%;
-    }
-    .number {
-        font-size: 100%;
-    }
+@media screen and (max-width: 680px) {
+  .number-board {
+    width: 90%;
+  }
+  .actions {
+    width: 90%;
+  }
+  .number {
+    font-size: 100%;
+  }
 }
