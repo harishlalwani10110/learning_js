@@ -172,6 +172,7 @@ h1 {
   .actions .reset {
     justify-self: end;
     font-size: 100%;
+    text-align: center;
   }
 
   .next-number {
