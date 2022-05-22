@@ -169,14 +169,26 @@ h1 {
     position: relative;
   }
 
+  .action-button {
+    padding: 3px;
+  }
+
   .actions .reset {
     justify-self: end;
-    font-size: 100%;
+    font-size: 80%;
     text-align: center;
   }
 
   .next-number {
     justify-self: center;
     font-size: 140%;
+  }
+
+  .next-button {
+    width: 60%;
+  }
+
+  .last-5 {
+    width: 60%;
   }
 }
