@@ -23,7 +23,7 @@ resetFullBoard = () => {
   fullNumbersAvailable = Array.from(Array(90), (_, i) => i + 1);
   lastFiveNumbers = []; 
   const nextNumbertoDisplay = document.getElementsByClassName("next-number")[0];
-  nextNumbertoDisplay.innerHTML = "Please Wait!!";
+  nextNumbertoDisplay.innerHTML = "Wait!!";
   // calledOutNumbers = [];
   document.querySelector(".last-5").innerHTML = "";
 };
@@ -41,7 +41,10 @@ generateNextNumber = () => {
   nextElement.style.color = "white";
 
   const nextNumbertoDisplay = document.getElementsByClassName("next-number")[0];
-  nextNumbertoDisplay.innerHTML = nextNumber;
+  nextNumbertoDisplay.innerHTML = 'Last Number: ' + nextNumber;
+
+  const nextButton = document.querySelector(".next-button");
+  
 
   // calledOutNumbers.push(nextNumber);
   // document.querySelector(".called-out").innerHTML +=
