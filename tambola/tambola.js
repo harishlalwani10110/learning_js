@@ -41,7 +41,7 @@ generateNextNumber = () => {
   nextElement.style.color = "white";
 
   const nextNumbertoDisplay = document.getElementsByClassName("next-number")[0];
-  nextNumbertoDisplay.innerHTML = 'Last Number: ' + nextNumber;
+  nextNumbertoDisplay.innerHTML = nextNumber;
 
   const nextButton = document.querySelector(".next-button");
   
